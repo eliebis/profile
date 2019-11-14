@@ -1,0 +1,264 @@
+/* Colors and fonts */
+/* Importer les librairies de composants avec @import url("") */
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+/* Body */
+
+body {
+  background-color: #edf1f2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  color: rgb(40, 40, 40);
+  /* text-align: center; */
+}
+
+p {
+  color: #192937;
+}
+
+
+/* Headers */
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #1963c4;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+
+/* Cards */
+
+  .container {
+      /* largeur maximale de 1000 pixels pour le container */
+      max-width: 1000px;
+      display: block;
+      /* maring auto pour centrer le container */
+      margin: auto;
+}
+
+
+/*.card-white, .card-white-larger {
+  max-width: 600px;
+  height: 160px;
+  background:  white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}*/
+
+.card-white {
+  max-width: 600px;
+  background: white;
+  margin: 20px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+/*.card-white-larger {
+  margin: 40px auto;
+}
+*/
+
+/* Link */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px:;
+}
+
+.list-inline-links {
+  font-size: 4px;
+  color: #1963c4;
+}
+
+
+/*.list-inline i {
+  font-size: 2px;
+  color: red;
+}*/
+
+
+/*a {
+  font-size: 16px;
+  color: #435472;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+*/
+
+
+/* Boutons */
+
+.btn-blue {
+/*  float: center; */
+  font-size: 16px;
+  background-color: #1963c4;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background-color: #103670;
+  color: white;
+}
+
+
+/* Rules & Operators */
+
+
+.text-center {
+  text-align: center;
+}
+
+.font-size-10 {
+  font-size: 0px;
+}
+
+.padding-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.img-websites {
+  max-width: 400px;
+  max-height: 500px;
+  border-radius: 4px;
+  padding: 20x 10px;
+  margin: 50px 10px;
+  box-shadow: 2px 2px #edf1f2;
+
+}
+
+.img-books {
+  max-width: 150px;
+  max-height: 250px;
+  border-radius: 4px;
+  padding: 20x 10px;
+  margin: 50px 10px;
+}
+
+.img-books:hover {
+  max-width: 151px;
+  max-height: 251px;
+/*  border: 0.5px solid #1963c4; */
+  box-shadow: 2px 2px #edf1f2;
+}
+
+.img-legende-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0D0C0B;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.img-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #191715;
+  margin-top: -10px;
+}
+
+
+/* General */
+
+
+.img-circle {
+  width: 100px;
+  border-radius: 50px;
+}
+
+
+#intro p {
+  margin-bottom: 40px;
+}
+
+
+
+
+/* Footer */
+
+
+#footer a {
+  font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Borders */
+/* borders: trait typedetrait couleur */
+/* border-top: 1px solid red; */
+/* border-right: 2px dotted black; */
+/* border-bottom: 1px dashed green; */
+/* border-left: 2px dotted black; */
+
+/* Selecteur d'id => #nom_id */
+/* #id = je selectionne l'element qui a l'id="" */
+
+/* Selecteur de classe => .nom_de_la_classe */
+/* .img_circle */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
