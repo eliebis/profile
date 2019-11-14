@@ -193,6 +193,13 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.img-logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 4px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
 
 
 
